@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdf0d5;
+}
+.content {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  text-align: center;
+}
+.content h1 {
+  font-size: 2rem;
+}
+
+.content p {
+  font-size: large;
+  font-weight: bold;
+}
+
+.section {
+  height: 100vh;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.star-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fa-star {
+  cursor: pointer;
+}
+
+.fa-star-o::before {
+  content: "\f006";
+  font-size: 50px;
+}
+.fa-star::before {
+  content: "\f006";
+  font-size: 50px;
+  color: gold;
+}

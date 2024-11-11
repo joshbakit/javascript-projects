@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #4800e3;
+  --btn-bg-color: #f6ee03;
+  --btn-text-color: #000000;
+}
+
+[data-theme="green"] {
+  --bg-color: #606c38;
+  --text-color: #ffffff;
+  --btn-bg-color: #bc6c25;
+  --btn-text-color: #fefae0;
+}
+[data-theme="brown"] {
+  --bg-color: #524632;
+  --text-color: #959e48;
+  --btn-bg-color: #dedbd8;
+  --btn-text-color: #303030;
+}
+[data-theme="cream"] {
+  --bg-color: #f4f0bb;
+  --text-color: #43291f;
+  --btn-bg-color: #226f54;
+  --btn-text-color: #829f00;
+}
+[data-theme="avocado"] {
+  --bg-color: #eeba0b;
+  --text-color: #710000;
+  --btn-bg-color: #c36f09;
+  --btn-text-color: #710000;
+}
+[data-theme="coffee"] {
+  --bg-color: #a499be;
+  --text-color: #2d2f49;
+  --btn-bg-color: #2a2e45;
+  --btn-text-color: #f4f0bb;
+}
+[data-theme="dark"] {
+  --bg-color: #000000;
+  --text-color: #dcdeff;
+  --btn-bg-color: #ffe731;
+  --btn-text-color: #000000;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.text {
+  color: var(--text-color);
+}
+
+.btn {
+  background-color: var(--btn-bg-color);
+  color: var(--btn-text-color);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
