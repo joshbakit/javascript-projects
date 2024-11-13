@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdf0d5;
+}
+.content {
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.board {
+  max-width: 500px;
+  height: 500px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.square {
+  width: 160px;
+  height: 160px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.square:hover {
+  background-color: burlywood;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.reset-game-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  cursor: pointer;
+}
