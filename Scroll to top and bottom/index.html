@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Generate QC</title>
+    <title>Scroll to top and bottom</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -15,21 +15,12 @@
   </head>
   <body>
     <section class="section">
-      <div class="container">
-        <h1>QC Code Generator</h1>
-        <input type="text" placeholder="type url" class="qr-text" />
-        <span class="error-message"></span>
-        <div class="qr-container"></div>
-        <button class="btn-generateCode">Generate Code</button>
-      </div>
+      <h1>scroll to Top and Bottom</h1>
+      <button class="scroll-to-bottom">scroll to bottom</button>
+      <span class="loading">Loading ...</span>
+      <ul class="user-list"></ul>
+      <button class="scroll-to-top">scroll to top</button>
     </section>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
-      integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
     <script src="script.js"></script>
   </body>
 </html>

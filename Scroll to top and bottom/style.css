@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdf0d5;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.card {
+  width: 500px;
+  height: 200px;
+  padding: 2rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.card img {
+  width: auto;
+  height: auto;
+}
+
+.card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
